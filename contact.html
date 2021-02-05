@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jovana's Project</title>
+     <!--add your favicon here-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <!--add your logo here, choose between 0,1 or 2-->
+      <img id="logo" src="img/jokalogo1.svg" alt="personal logo of jovana milenkovic,consists of full name and 3 small squares as illustration" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class=" navition-list__item">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contact">
+      <h1>Contact</h1>
+      <p>
+      Jovana Milenkovic<br>
+      Im Woerth 6<br>
+      60433, Frankfurt am Main<br>
+      Deutschland<br>
+     </p>
+      <a href="tel:+4917621427221">Tel: +49 176 2142 7221</a><br>
+      <a href="skype:jovana.perunovic">skype: jovana.perunovic</a><br>
+      <a href="mailto:perunka84@gmail.com">Email: perunka84@gmail.com</a><br>
+      <a href="mailto:perunka84@gmail.com">
+        <button type="button">Contact me</button>
+      </a><br><br>
+
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="name">Name: </label><br>
+        <input type="text" id="name" required="required" style="width:200px; height:30px;"><br>
+
+        <label class="standard-label" for="contact-email">E-mail: </label><br>
+        <input type="email" id="contact-email" required="required" style="width:200px; height:30px;"><br>
+
+        <label class="standard-label" for="my-input">Message: </label><br>
+        <textarea id="my-input" maxlength="240" required="required" style="width:200px; height:150px;"></textarea><br>
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+
+    <footer class="page_footer">
+      <p>You can find me on</p>
+      <div class="social-media">
+        <img src="img/github.svg" alt="GitHub">
+        <img src="img/linkedin.svg" alt="LinkedIn">
+        <img src="img/twitter.svg" alt="Twitter">
+      </div>
+    </footer>
+
+
+<script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
