@@ -149,6 +149,7 @@ div {
 }
 .navigation-list {
   list-style-type: none;
+  font-size: 25px;
 }
 .navigation-list li {
   display: inline-block;
