@@ -12,7 +12,7 @@
    viewBox="0 0 52.916667 26.458333"
    version="1.1"
    id="svg8"
-   sodipodi:docname="jokalogo1.svg"
+   sodipodi:docname="Jokalogo.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <defs
      id="defs2" />
@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="-10.547289"
+     inkscape:cx="37.577711"
      inkscape:cy="70.669209"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -54,7 +54,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#91c46e;fill-rule:evenodd;stroke-width:0.472835;fill-opacity:0.75"
+       style="fill:#aad400;fill-rule:evenodd;stroke-width:0.472835;fill-opacity:1"
        id="rect24"
        width="11.736465"
        height="11.229855"
@@ -76,7 +76,7 @@
        x="36.759907"
        y="5.1429172" />
     <rect
-       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.354334"
+       style="fill:#666666;fill-opacity:1;stroke-width:0.354334"
        id="rect30-3"
        width="4.429183"
        height="4.1760883"
@@ -100,7 +100,7 @@
          id="tspan145"
          x="4.9834347"
          y="14.573865"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#4d4d4d;fill-opacity:1;stroke-width:1.395;stroke-miterlimit:4;stroke-dasharray:none">Jovana Milenkovic</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#4d4d4d;stroke-width:1.395;stroke-miterlimit:4;stroke-dasharray:none">Jovana Milenkovic</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.15937px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.488654"
@@ -108,25 +108,25 @@
        y="18.030025"
        id="text151"
        transform="scale(1.0334551,0.96762793)"><tspan
+         sodipodi:role="line"
          id="tspan149"
          x="19.833427"
          y="18.030025"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.15937px;font-family:'Segoe UI Emoji';-inkscape-font-specification:'Segoe UI Emoji';fill:#4d4d4d;fill-opacity:1;stroke-width:0.488654"
-         sodipodi:role="line">Web Developer</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.15937px;font-family:'Segoe UI Emoji';-inkscape-font-specification:'Segoe UI Emoji';fill:#4d4d4d;stroke-width:0.488654">Web Developer</tspan></text>
     <path
-       style="fill:#677821;stroke:#009b00;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#668000;stroke:#009b00;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 19.380009,5.5955718 H 25.29046"
        id="path165" />
     <path
-       style="fill:#88aa00;stroke:#009900;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#668000;stroke:#009900;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 19.380009,5.5955718 V 10.492801"
        id="path1018" />
     <path
-       style="fill:none;stroke:#009900;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#668000;stroke:#009900;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 36.773619,17.669776 v 4.89723"
        id="path1018-5" />
     <path
-       style="fill:#1100aa;stroke:#009b00;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#668000;stroke:#009b00;stroke-width:0.116161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.863168,22.567006 h 5.910451"
        id="path165-6" />
   </g>

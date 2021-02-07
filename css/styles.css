@@ -180,108 +180,98 @@ div {
 }
 
 
-/*
-.big-square { animation-duration: 5s;
+
+
+.text-1 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-name: hideshow;
+  animation-fill-mode: forwards;
+  fill: grey;
+}
+.text-2 {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-name: hideshow;
+  animation-fill-mode: forwards;
+  fill: grey;
+}
+
+
+ @keyframes hideshow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.big-square {
+  animation-duration: 2s;
   animation-name: square-scale;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
   animation-direction: alternate;
   animation-timing-function: linear;
-  }
+}
 
 @keyframes square-scale {
   from {
-  transform:translate(-37px,-25px);
+    transform:translate(-37px,-25px);
+    opacity: 0;
   }
   to {
     transform:translate (62.933033px,27.886391px);
+    opacity: 1;
   }
 }
-.grey-square-left { animation-duration: 5s;
+
+.grey-square-left {
+  animation-duration: 2s;
   animation-name: square-scale1;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
   animation-direction: alternate;
   animation-timing-function: linear;
-  }
+}
 
 @keyframes square-scale1 {
   from {
   transform:translate(-1.5px,-27px);
+  opacity: 0;
   }
   to {
     transform:translate (38.931549px,43.089287px);
+    opacity: 1;
+  }
+}
+
+@keyframes square-rotate1 {
+  from {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+}
+
+@keyframes square-rotate2 {
+  0% {
+    transform: rotate(90deg);
+  }
+  60% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
 .grey-square-right {
-  animation-duration: 5s;
-  animation-name: square-scale2;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109px 37px;
-}
-
-@keyframes square-scale2 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(90deg);
-  }
-
-}
-*/
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes color-change {
-  0% {
-    fill: var(--sun-color-none);
-  }
-  50% {
-    fill: var(--sun-color-two);
-  }
-  100% {
-    fill: var(--sun-color-three);
-  }
-}
-
-.cloud-front {
-    animation-duration: 30s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-back {
-  animation-duration: 30s;
-  animation-name: cloud-move-reverse;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
+  animation: square-rotate1 2s linear 0s 1 normal, square-rotate2 8s linear 2s infinite normal;
+  transform-origin: 109.2px 37.7px;
 }
