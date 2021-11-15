@@ -11,43 +11,58 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-  <header class="page-header">
-    <!--add your logo here, choose between 0,1 or 2-->
-    <img id="logo" src="img/jokalogo1.svg"
-      alt="personal logo of jovana milenkovic,consists of full name and 3 small squares as illustration"
-      class="page-header-logo">
-    <nav class="main-navigation page-header-logo">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+  <nav class="navbar sticky">
+    <div class="max-width">
+      <img id="logo" src="img/jokalogo1.svg"
+        alt="personal logo of jovana milenkovic,consists of full name and 3 small squares as illustration"
+        class="page-header-logo">
+      <ul class="menu">
+        <li>
+          <a href="index.html" class="navigation-list__item">Home</a>
         </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+        <li>
+          <a href="about.html" class="navigation-list__item">About me</a>
         </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item--active">Work</a>
+        <li>
+          <a href="work.html" class="navigation-list__item--active">Work</a>
         </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        <li>
+          <a href="contact.html" class="navigation-list__item">Contact</a>
         </li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
 
   <div class="work">
     <h1>My Projects</h1>
     <div class="grid">
       <div class="grid__item">
-        <h2>Pokedex</h2>
-        <p>Within this project, I was reProject is based on building simple JS App for listing Pokemons and option to
-          see more details for each item on the list.<br>
-          External API was used for loading data as well as HTML, CSS, and JavaScript framework Bootstrap.</p>
-        <a href="https://github.com/JokaMilen/simple-js-app" target="_blank">See project on GitHub</a>
+        <h2>myFlix-client (React)</h2>
+        <p>This is a client-side for a one page application called myFlix.
+          It includes several interface views built using the React library that handle data through the
+          previously-defined REST API (Movie API) endpoints. The app uses Bootstrap as a UI library for styling and
+          responsiveness.<br><br>
+          <img src="img/react-myFlix.png" width="355" height="281">
+          <img src="img/react-myFlix1.png" width="137" height="281">
+        </p>
+        <a href="https://github.com/JokaMilen/myFlix-client" target="_blank">See project on GitHub</a><br>
+        <a href="https://jovana-myflix-client.netlify.app/" target="_blank">Open App</a>
+      </div>
+      <div class="grid__item">
+        <h2>myFlix-client (Angular)</h2>
+        <p>This project is the client-side for an application called myFlix based on
+          its existing server-side code (Movie API and database), with supporting
+          documentation.
+          It is bulid using Angular, popular frontend framework.<br><br>
+          <img src="img/angular.png" width="800" height="212">
+        </p>
+        <a href="https://github.com/JokaMilen/myFlix-Angular-client" target="_blank">See project on GitHub</a><br>
+        <a href="https://jokamilen.github.io/myFlix-Angular-client">Open App</a>
       </div>
       <div class="grid__item">
         <h2>Movie API</h2>
@@ -58,28 +73,16 @@
         <a href="https://github.com/JokaMilen/movie_api" target="_blank">See project on GitHub</a>
       </div>
       <div class="grid__item">
-        <h2>myFlix-client (React)</h2>
-        <p>This is a client-side for a one page application called myFlix.
-          It includes several interface views built using the React library that handle data through the
-          previously-defined REST API (Movie API) endpoints. The app uses Bootstrap as a UI library for styling and
-          responsiveness.
-        </p>
-        <a href="https://github.com/JokaMilen/myFlix-client" target="_blank">See project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>myFlix-client (Angular)</h2>
-        <p>This project is the client-side for an application called myFlix based on
-          its existing server-side code (Movie API and database), with supporting
-          documentation.<br>
-          It is bulid using Angular, popular frontend framework.</p>
-        <a href="#">See project on GitHub</a>
-      </div>
-      <div class="grid__item">
         <h2>Chat App</h2>
         <p>This is a chat app for mobile devices developed by using React Native and Expo. The app provides
           users with a chat
           interface and options to share images and their location. The chat interface and functionality are created
-          using the Gifted Chat library.</p>
+          using the Gifted Chat library.<br>
+        <div>
+          <img src="img/Chat-app.png" width="168" height="279">
+          <img src="img/Chat-app1.png" width="168" height="279">
+        </div>
+        </p>
         <a href="https://github.com/JokaMilen/chat-app" target="_blank">See project on GitHub</a>
       </div>
       <div class="grid__item">
@@ -87,8 +90,19 @@
         <p>Meet is a progressive web application (PWA) with React using a test-driven development (TDD) technique. The
           app provides a list of Calendar events fetched from the Google Calendar API. The application uses AWS Lambda
           serverless
-          functions and works both online and offline.</p>
-        <a href="https://github.com/JokaMilen/meet" target="_blank">See project on GitHub</a>
+          functions and works both online and offline.<br><br>
+          <img src="img/meet.png" width="470" height="224">
+        </p>
+        <a href="https://github.com/JokaMilen/meet" target="_blank">See project on GitHub</a><br>
+        <a href="https://jokamilen.github.io/meet/">Open App</a>
+      </div>
+      <div class="grid__item">
+        <h2>Pokedex</h2>
+        <p>Within this project, I was reProject is based on building simple JS App for listing Pokemons and option to
+          see more details for each item on the list.<br>
+          External API was used for loading data as well as HTML, CSS, and JavaScript framework Bootstrap.</p>
+        <a href="https://github.com/JokaMilen/simple-js-app" target="_blank">See project on GitHub</a><br>
+        <a href="https://jokamilen.github.io/simple-js-app/" target="_blank">Open App</a>
       </div>
     </div>
   </div>
